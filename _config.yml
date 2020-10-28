@@ -1,20 +1,14 @@
-logo_title: GEEK 三斤
-
-style: black
+logo_title: tekzv
 
 favicon: /favicon.ico
 
 menu:
-  作品: /project
-  域名: /domain
-  友联: /links
-  关于: /about
-  Github: https://github.com/sanjinhub
+  About Me: /about
+  Kindle: https://www.notion.so/kghazb/1e4012e19ac7475099c6730c1771a775?v=7f4a8ba1b66f4ecf91d04ae3fb267d27
+  Github: https://github.com/tinyRatP
 
-# 做了域名限制，请改成自己的 KEY
-# 若关闭valine 设置enable为false
 valine:
-  enable: true
+  enable: false
   appId: CmCti21ooOOIzFOhEyFkFvR0-gzGzoHsz
   appKey: FqiyUqbg7McKN2eG0MCewupf
 
