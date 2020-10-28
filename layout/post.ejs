@@ -12,6 +12,13 @@
         <% if (!page.noTime) { %>
         <p>（全文完）<%- full_date(page.date, 'L') %></p>
         <% } %>
+        <p>
+        <% if (page.tags) { %>
+        <% page.tags.forEach(function(tag){  %>
+            <a href="<%- config.root %>/tags/<%- tag.name %>">#<%= tag.name %></a>
+        <% }); %>
+        <% } %>
+        </p>
     </div>
 
     <% if (theme.valine.enable && page.comments) { %>
